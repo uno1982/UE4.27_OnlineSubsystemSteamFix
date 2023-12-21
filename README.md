@@ -12,7 +12,8 @@ Clone and place into your UE4.27.2 project plugins directory to use instead of t
 Pair with one of the following for blueprint project support.
 
 #####Note##### 
-*The default engine sessions nodes will not return results due to missing "bUseLobbiesWhenAvailable" for the session filter. The below plugins resolve that issue.
+
+* The default engine sessions nodes will not return results due to missing "bUseLobbiesWhenAvailable" for the session filter. The below plugins resolve that issue.
 
 - AdvancedSessions (https://github.com/mordentral/AdvancedSessionsPlugin).
 
