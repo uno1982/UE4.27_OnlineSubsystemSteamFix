@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-OnlineSubsystemSteam.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\DropIn_427\Intermediate\Build\Win64\DropInEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\DropIn_427\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UE4Editor\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.obj"
+"E:\DropIn_427\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UE4Editor\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.gen.cpp.obj"
+"E:\DropIn_427\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UE4Editor\Development\OnlineSubsystemSteam\Default.rc2.res"
+/OUT:"E:\DropIn_427\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UE4Editor\Development\OnlineSubsystemSteam\UE4Editor-OnlineSubsystemSteam.lib"
