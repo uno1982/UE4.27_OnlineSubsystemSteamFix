@@ -10,6 +10,7 @@ This would result in the inablity to control client travel from listen servers a
 Clone and place into your UE4.27.2 project plugins directory to use instead of the binary release version.
 
 Pair with one of the following for blueprint project support.
+#Note - The default engine sessions nodes will not return results due to missing "bUseLobbiesWhenAvailable" for the session filter. The below plugins resolve that issue.
 
 - AdvancedSessions (https://github.com/mordentral/AdvancedSessionsPlugin).
 
