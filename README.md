@@ -23,4 +23,5 @@ It appears the default session node also no longer worked due to missing "bUseLo
 The Following Plugins expand the default blueprint nodes to allow you to create sessions that use the new bool
 
 SteamCore by eelDev - https://www.unrealengine.com/marketplace/en-US/product/steamcore
+
 AdvancedSessions - https://github.com/mordentral/AdvancedSessionsPlugin
