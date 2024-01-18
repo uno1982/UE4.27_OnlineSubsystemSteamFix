@@ -1,9 +1,10 @@
 **UE4.27.2 Online Subsystem Steam FOnlineAsyncTaskSteamFindLobbiesForFindSessions returns false when hosting a listen server**
+
 Found an issue following the Steamworks SDK update commit in UE4.27.2
 
 Updating the Steamworks SDK to 1.51 · EpicGames/UnrealEngine@d9353c9 (github.com)
 
-​
+**Place the OnlineSubsystemSteam Folder in your Project/Plugins Directory to override the engine plugin**​
 
 Listen server host can no longer return results from FOnlineAsysncTaskSteamFindLobbieForFindSessions resulting in the following log.
 
