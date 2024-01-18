@@ -26,3 +26,11 @@ The Following Plugins expand the default blueprint nodes to allow you to create 
 SteamCore by eelDev - https://www.unrealengine.com/marketplace/en-US/product/steamcore
 
 AdvancedSessions - https://github.com/mordentral/AdvancedSessionsPlugin
+
+
+**Known Issues (Still hunting for resolution)**
+Randomly Client and Server will desync NetGUID logging the following on the server
+[[2024.01.18-01.30.44:124][442]LogNetPackageMap: Error: UPackageMapClient::SerializeNewActor. Unresolved Archetype GUID. Guid not registered! NetGUID: 953.
+[2024.01.18-01.30.44:124][442]LogNetPackageMap: Error: UPackageMapClient::SerializeNewActor Unable to read Archetype for NetGUID 3680 / 953]
+And the Following on the client
+[[2024.01.18-01.42.36:018][337]LogNet: Server connection received: ActorChannelFailure [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198960375045:7777, Name: SteamNetConnection_2147469913, Driver: GameNetDriver SteamNetDriver_2147470633, IsServer: YES, PC: Steam_VR_Player_Controller_C_2147469909, Owner: Steam_VR_Player_Controller_C_2147469909, UniqueId: Steam:REMOVEDTHISINTENTIONALLY]
