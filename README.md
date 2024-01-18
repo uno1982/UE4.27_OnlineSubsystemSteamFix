@@ -10,11 +10,11 @@ Listen server host can no longer return results from FOnlineAsysncTaskSteamFindL
 
 [2023.12.15-01.08.53:682][359]LogOnline: Warning: OSS: Async task 'FOnlineAsyncTaskSteamFindLobbiesForFindSessions bWasSuccessful: 0 NumResults: 4' failed in 15.077619 seconds
 
+The results will actually return counted out as NumResults in the log but the return value is false after a timeout.
+
 **​The fix is the TArray Function in not returning correclty when the ref is a pointer in OnlineSessionsInterfaceSteam.h**
 Line 400 and 413.
 JoinedLobbyList.RemoveSingleSwap(LobbyId.AsShared());
-
-The results will actually return counted out as NumResults in the log but the return value is false after a timeout.
 
 **Place the OnlineSubsystemSteam Folder in your Project/Plugins Directory to override the engine plugin**
 
