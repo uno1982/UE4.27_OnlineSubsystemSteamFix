@@ -3,9 +3,7 @@
 Found an issue following the Steamworks SDK update commit in UE4.27.2
 
 Updating the Steamworks SDK to 1.51 · EpicGames/UnrealEngine@d9353c9 (github.com)
-
-**Place the OnlineSubsystemSteam Folder in your Project/Plugins Directory to override the engine plugin**​
-
+​
 Listen server host can no longer return results from FOnlineAsysncTaskSteamFindLobbieForFindSessions resulting in the following log.
 
 [2023.12.15-01.08.38:606][197]LogOnlineSession: Warning: STEAM: Unable to set search parameter LOBBYSEARCH: Value=true : Equals : -1
@@ -17,6 +15,8 @@ Line 400 and 413.
 JoinedLobbyList.RemoveSingleSwap(LobbyId.AsShared());
 
 The results will actually return counted out as NumResults in the log but the return value is false after a timeout.
+
+**Place the OnlineSubsystemSteam Folder in your Project/Plugins Directory to override the engine plugin**
 
 **Note:**
 There are quite a bit of concerns and forum post out there regarding this behavior with devs unsure as to exactly what is going on as some report session results working and others not.
