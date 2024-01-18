@@ -1,0 +1,39 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.OnlineSubsystemSteam.cpp.obj": [
+			"IPAddressSteam.cpp.obj",
+			"OnlineAchievementsInterfaceSteam.cpp.obj",
+			"OnlineAsyncTaskManagerSteam.cpp.obj",
+			"OnlineAuthHandlerSteam.cpp.obj",
+			"OnlineAuthInterfaceSteam.cpp.obj",
+			"OnlineEncryptedAppTicketInterfaceSteam.cpp.obj",
+			"OnlineExternalUIInterfaceSteam.cpp.obj",
+			"OnlineFriendsInterfaceSteam.cpp.obj",
+			"OnlineIdentityInterfaceSteam.cpp.obj",
+			"OnlineLeaderboardInterfaceSteam.cpp.obj",
+			"OnlinePresenceInterfaceSteam.cpp.obj",
+			"OnlineSessionAsyncLobbySteam.cpp.obj",
+			"OnlineSessionAsyncServerSteam.cpp.obj",
+			"OnlineSessionInterfaceSteam.cpp.obj",
+			"OnlineSharedCloudInterfaceSteam.cpp.obj",
+			"OnlineSubsystemModuleSteam.cpp.obj",
+			"OnlineSubsystemSteam.cpp.obj",
+			"OnlineUserCloudInterfaceSteam.cpp.obj",
+			"SocketsSteam.cpp.obj",
+			"SocketSubsystemSteam.cpp.obj",
+			"SteamNetConnection.cpp.obj",
+			"SteamNetDriver.cpp.obj",
+			"SteamUtilities.cpp.obj",
+			"VoiceEngineSteam.cpp.obj",
+			"VoiceInterfaceSteam.cpp.obj",
+			"VoicePacketSteam.cpp.obj"
+		],
+		"Module.OnlineSubsystemSteam.gen.cpp.obj": [
+			"OnlineAuthHandlerSteam.gen.cpp.obj",
+			"OnlineSubsystemSteam.init.gen.cpp.obj",
+			"SteamNetConnection.gen.cpp.obj",
+			"SteamNetDriver.gen.cpp.obj"
+		]
+	}
+}

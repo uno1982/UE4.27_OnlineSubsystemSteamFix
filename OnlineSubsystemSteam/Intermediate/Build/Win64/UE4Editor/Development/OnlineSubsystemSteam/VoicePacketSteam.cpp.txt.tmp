@@ -1,0 +1,70 @@
+E:\DropIn_427\Plugins\OnlineSubsystemSteam\Intermediate\Build\Win64\UE4Editor\Development\OnlineSubsystemSteam\Definitions.OnlineSubsystemSteam.h
+E:\DropIn_427\Plugins\OnlineSubsystemSteam\Source\Private\VoicePacketSteam.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Net/VoiceDataCommon.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Net/VoiceConfig.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\SignalProcessing\Public\DSP/EnvelopeFollower.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerState.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerState.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AudioMixer\Public\Components/SynthComponent.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/AudioComponent.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/QuartzSubscription.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AudioMixer\Public\Quartz/AudioMixerClockHandle.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AudioMixer\Public\Quartz/QuartzSubsystem.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AudioMixer\Public\Quartz/AudioMixerClockManager.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AudioMixer\Public\Quartz\AudioMixerClock.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AudioMixer\Public\Quartz/QuartzMetronome.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer\QuartzSubsystem.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer\AudioMixerClockHandle.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AudioMixer\Public\Quartz/AudioMixerQuantizedCommands.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AudioComponent.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/SoundWaveProcedural.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundWaveProcedural.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer\SynthComponent.generated.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VoiceConfig.generated.h
+E:\DropIn_427\Plugins\OnlineSubsystemSteam\Source\Public\OnlineSubsystemSteamPackage.h
+E:\DropIn_427\Plugins\OnlineSubsystemSteam\Source\Private\OnlineSubsystemSteamTypes.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemTypes.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemNames.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemPackage.h
+E:\DropIn_427\Plugins\OnlineSubsystemSteam\Source\Private\OnlineSubsystemSteamPrivate.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystem.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineSubsystemModule.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Online\OnlineSubsystem\Source\Public\OnlineDelegateMacros.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam/steam_api.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\steam_api_common.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\steamtypes.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\steamclientpublic.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\steamuniverse.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\steam_api_internal.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamclient.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamuser.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamfriends.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamutils.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteammatchmaking.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\matchmakingtypes.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamuserstats.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamremotestorage.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamapps.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamnetworking.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamscreenshots.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteammusic.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteammusicremote.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamhttp.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\steamhttpenums.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamcontroller.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteaminput.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamugc.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamapplist.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamhtmlsurface.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteaminventory.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamvideo.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamparentalsettings.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamremoteplay.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamnetworkingmessages.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\steamnetworkingtypes.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamnetworkingsockets.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamnetworkingutils.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam/steam_gameserver.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamgameserver.h
+D:\Program Files\Epic Games\UE_4.27\Engine\Source\ThirdParty\Steamworks\Steamv151\sdk\public\steam\isteamgameserverstats.h
+E:\DropIn_427\Plugins\OnlineSubsystemSteam\Source\Public\OnlineSubsystemSteamPackage.h
