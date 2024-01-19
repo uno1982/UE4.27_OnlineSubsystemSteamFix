@@ -19,9 +19,11 @@ JoinedLobbyList.RemoveSingleSwap(LobbyId.AsShared());
 **Place the OnlineSubsystemSteam Folder in your Project/Plugins Directory to override the engine plugin**
 
 **Note:**
-There are quite a bit of concerns and forum post out there regarding this behavior with devs unsure as to exactly what is going on as some report session results working and others not.
+There are quite a bit of concerns and forum post out there regarding steam sessions behavior with devs unsure as to exactly what is going on as some report session results working and others not.
 It appears the default session node also no longer worked due to missing "bUseLobbiesWhenAvailable"
 The Following Plugins expand the default blueprint nodes to allow you to create sessions that use the new bool
+https://forums.unrealengine.com/t/cant-find-session-using-advanced-sessions/828468
+https://www.reddit.com/r/unrealengine/comments/sk3p5l/need_help_with_advanced_sessions_v427/
 
 SteamCore by eelDev - https://www.unrealengine.com/marketplace/en-US/product/steamcore
 
