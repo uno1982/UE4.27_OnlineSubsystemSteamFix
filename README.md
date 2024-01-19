@@ -45,3 +45,11 @@ And the Following on the server
 [SystemSettings]
 
 net.AllowAsyncLoading=1
+
+The Async Log is different:
+
+[2024.01.19-03.17.39:371][249]LogNet: Warning: UActorChannel::ReceivedBunch: Received a MustBeMappedGUID that is not registered. ChIndex: 72 NetGUID: 3161 Channel: Actor: None [UChannel] ChIndex: 72, Closing: 0 [UNetConnection] RemoteAddr: 76561198960375045:7777, Name: SteamNetConnection_2147481634, Driver: GameNetDriver SteamNetDriver_2147481635, IsServer: NO, PC: Steam_VR_Player_Controller_C_2147481357, Owner: Steam_VR_Player_Controller_C_2147481357, UniqueId: Steam:REMOVEDINTENTIONALLY [0x110000104BBE358] Bunch: FInBunch: Channel[72] ChSequence: 621 NumBits: 269 PacketId: 174834 bOpen: 1 bClose: 0 bIsReplicationPaused: 0 bReliable: 1 bPartial: 0//0//0 bHasPackageMapExports: 0 bHasMustBeMappedGUIDs: 1 bIgnoreRPCs: 0 
+
+[2024.01.19-03.17.39:371][249]LogNetTraffic: Error: UChannel::ReceivedRawBunch: Bunch.IsError() after ReceivedNextBunch 1
+
+[2024.01.19-03.17.40:204][309]LogNetTraffic: Error: UActorChannel::ProcessBunch: New actor channel received non-open packet. bOpen: 0, bClose: 0, bReliable: 0, bPartial: 0, bPartialInitial: 0, bPartialFinal: 0, ChName: Actor, ChIndex: 140, Closing: 0, OpenedLocally: 0, OpenAcked: 1, NetGUID: 0
