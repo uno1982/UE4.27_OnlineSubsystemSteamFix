@@ -12,7 +12,7 @@ Listen server host can no longer return results from FOnlineAsysncTaskSteamFindL
 
 The results will actually return counted out as NumResults in the log but the return value is false after a timeout.
 
-**​The fix is the TArray Function in not returning correclty when the ref is a pointer in OnlineSessionsInterfaceSteam.h**
+**​The fix is the TArray Function in not returning correctly (it's missing an equality operator) in OnlineSessionsInterfaceSteam.h**
 Line 400 and 413.
 JoinedLobbyList.RemoveSingleSwap(LobbyId.AsShared());
 
