@@ -29,7 +29,7 @@ AdvancedSessions - https://github.com/mordentral/AdvancedSessionsPlugin
 
 
 **Known Issues (with cvar resolution)**
-Randomly Client and Server will desync NetGUID when using the non-asyncronous path (cvar declared and used in PackageMapClient.h)
+Frequently the Client and Server will desync NetGUID when using the non-asyncronous path (cvar declared and used in PackageMapClient.h)
 
 logging the following on the client
 
@@ -40,7 +40,7 @@ And the Following on the server
 
 [[2024.01.18-01.42.36:018][337]LogNet: Server connection received: ActorChannelFailure [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198960375045:7777, Name: SteamNetConnection_2147469913, Driver: GameNetDriver SteamNetDriver_2147470633, IsServer: YES, PC: Steam_VR_Player_Controller_C_2147469909, Owner: Steam_VR_Player_Controller_C_2147469909, UniqueId: Steam:REMOVEDTHISINTENTIONALLY]
 
-**Add the following to your Engine.ini to work around this issue**
+**Add the following to your Engine.ini to work around this issue ####THIS IS NOT A FIX BUT REDUCES THE OCCURANCE####**
 
 [SystemSettings]
 
