@@ -33,7 +33,7 @@ AdvancedSessions - https://github.com/mordentral/AdvancedSessionsPlugin
 
 
 **Known Issues (netGUID cache logs after seamless server travel)**
-Frequently the Client and Server will desync NetGUID when using the non-asyncronous path (cvar declared and used in PackageMapClient.h)
+Frequently the Client and Server will desync NetGUID remapping / serialization
 
 logging the following on the client
 
