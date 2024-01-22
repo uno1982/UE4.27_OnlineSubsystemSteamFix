@@ -32,7 +32,7 @@ SteamCore by eelDev - https://www.unrealengine.com/marketplace/en-US/product/ste
 AdvancedSessions - https://github.com/mordentral/AdvancedSessionsPlugin
 
 
-**Known Issues (with or without async cvar)**
+**Known Issues (netGUID cache logs after seamless server travel)**
 Frequently the Client and Server will desync NetGUID when using the non-asyncronous path (cvar declared and used in PackageMapClient.h)
 
 logging the following on the client
@@ -44,16 +44,12 @@ And the Following on the server
 
 [[2024.01.18-01.42.36:018][337]LogNet: Server connection received: ActorChannelFailure [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198960375045:7777, Name: SteamNetConnection_2147469913, Driver: GameNetDriver SteamNetDriver_2147470633, IsServer: YES, PC: Steam_VR_Player_Controller_C_2147469909, Owner: Steam_VR_Player_Controller_C_2147469909, UniqueId: Steam:REMOVEDTHISINTENTIONALLY]
 
-**Add the following to your Engine.ini to work around this issue ####THIS IS NOT A FIX BUT REDUCES THE OCCURANCE####**
+The following cvars seem to be linked to this warning and behavior. 
+net.FilterGuidRemapping - When enabled this will remove destroyed and parent guids from unmapped list 
+net.AllowClientRemapCacheObject - When enabled, we will allow clients to remap read only cache objects and keep the same NetGUID.
 
+The Following added to the **engine.ini** **SEEMS** to resolve.
 [SystemSettings]
-
-net.AllowAsyncLoading=1
-
-**The Async Log is different:**
-
-[2024.01.19-03.17.39:371][249]LogNet: Warning: UActorChannel::ReceivedBunch: Received a MustBeMappedGUID that is not registered. ChIndex: 72 NetGUID: 3161 Channel: Actor: None [UChannel] ChIndex: 72, Closing: 0 [UNetConnection] RemoteAddr: 76561198960375045:7777, Name: SteamNetConnection_2147481634, Driver: GameNetDriver SteamNetDriver_2147481635, IsServer: NO, PC: Steam_VR_Player_Controller_C_2147481357, Owner: Steam_VR_Player_Controller_C_2147481357, UniqueId: Steam:REMOVEDINTENTIONALLY [0x110000104BBE358] Bunch: FInBunch: Channel[72] ChSequence: 621 NumBits: 269 PacketId: 174834 bOpen: 1 bClose: 0 bIsReplicationPaused: 0 bReliable: 1 bPartial: 0//0//0 bHasPackageMapExports: 0 bHasMustBeMappedGUIDs: 1 bIgnoreRPCs: 0 
-
-[2024.01.19-03.17.39:371][249]LogNetTraffic: Error: UChannel::ReceivedRawBunch: Bunch.IsError() after ReceivedNextBunch 1
-
-[2024.01.19-03.17.40:204][309]LogNetTraffic: Error: UActorChannel::ProcessBunch: New actor channel received non-open packet. bOpen: 0, bClose: 0, bReliable: 0, bPartial: 0, bPartialInitial: 0, bPartialFinal: 0, ChName: Actor, ChIndex: 140, Closing: 0, OpenedLocally: 0, OpenAcked: 1, NetGUID: 0
+net.AllowAsyncLoading=0
+net.AllowClientRemapCacheObject=1
+net.FilterGuidRemapping=0 
