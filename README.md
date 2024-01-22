@@ -60,4 +60,4 @@ net.AllowAsyncLoading=0
 
 net.AllowClientRemapCacheObject=1
 
-net.FilterGuidRemapping=0 
+net.FilterGuidRemapping=1 
