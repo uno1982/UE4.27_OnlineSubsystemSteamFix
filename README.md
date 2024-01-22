@@ -46,9 +46,11 @@ And the Following on the server
 
 The following cvars seem to be linked to this warning and behavior. 
 
-net.FilterGuidRemapping - When enabled this will remove destroyed and parent guids from unmapped list 
+net.FilterGuidRemapping - When enabled this will remove destroyed and parent guids from unmapped list (Default Enabled)
 
-net.AllowClientRemapCacheObject - When enabled, we will allow clients to remap read only cache objects and keep the same NetGUID.
+net.AllowClientRemapCacheObject - When enabled, we will allow clients to remap read only cache objects and keep the same NetGUID. (Default Disabled)
+
+The above cvars weren't documented for UE4.27 but UE5 docs are here https://docs.unrealengine.com/5.3/en-US/console-commands-for-network-debugging-in-unreal-engine/
 
 The Following added to the **engine.ini** **SEEMS** to resolve.
 
